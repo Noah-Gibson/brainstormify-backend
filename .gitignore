@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Logs and local databases
+*.log
+*.sqlite3
+*.db
+
+# Alembic migration cache
+migrations/__pycache__/
+migrations/versions/__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Coverage and test cache
+.coverage
+.tox/
+.cache/
+pytest_cache/
+
+# MySQL dumps
+*.sql
+*.dump
+
+# VS Code debug history
+.history/
+
+# CircleCI (optional)
+.circleci/
+
+# Optional OS files
+Thumbs.db
+
+# If you're using pip-tools or similar
+*.lock
+
+# Optional: Ignore Alembic version scripts (if generated and not yet needed)
+# Uncomment if you want to manually track migrations instead
+# migrations/versions/

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+mangum
+nanoid
+pydantic
+mysql-connector-python
+sqlalchemy
+databases
+alembic
+pymysql
