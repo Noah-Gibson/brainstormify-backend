@@ -21,7 +21,7 @@ DB_NAME = os.environ["DB_NAME"]
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://objectstorage.us-chicago-1.oraclecloud.com/p/Db70a4PbxL6A0mfarBth96YoyyxeBQb9r4MdZkbw3MJnJKs5a5F_TQpm3DMGDFo7/n/axs54kfplix0/b/brainstormify-frontend/o/index.html"
+    "https://objectstorage.us-chicago-1.oraclecloud.com"
 ]
 
 app.add_middleware (
