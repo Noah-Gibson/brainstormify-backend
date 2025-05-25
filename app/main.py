@@ -5,18 +5,10 @@ from app import models
 from app.routes import documents, brainstorms
 import pymysql
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-
-DB_HOST = os.environ["DB_HOST"]
-DB_USER = os.environ["DB_USER"]
-DB_PASS = os.environ["DB_PASS"]
-DB_NAME = os.environ["DB_NAME"]
 
 origins = [
     "http://localhost:5173",
